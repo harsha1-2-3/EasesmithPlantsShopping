@@ -38,6 +38,96 @@ const PlantsAndPots = () => {
                 Lorem ipsum dolor sit amet. Aut ipsam illum et nostrum
               </p>
             </li>
+          <li className="nursery-li">
+              <img
+                className="nursery-li-img"
+                src="https://res.cloudinary.com/dazwjceuy/image/upload/v1729269832/Ellipse_68_nz6mg6.png"
+                alt="nursery-li-img"
+              />
+              <p className="nursery-li-para">
+                Lorem ipsum dolor sit amet. Aut ipsam illum et nostrum
+              </p>
+            </li>
+          <li className="nursery-li">
+              <img
+                className="nursery-li-img"
+                src="https://res.cloudinary.com/dazwjceuy/image/upload/v1729269832/Ellipse_68_nz6mg6.png"
+                alt="nursery-li-img"
+              />
+              <p className="nursery-li-para">
+                Lorem ipsum dolor sit amet. Aut ipsam illum et nostrum
+              </p>
+            </li>
+          <li className="nursery-li">
+              <img
+                className="nursery-li-img"
+                src="https://res.cloudinary.com/dazwjceuy/image/upload/v1729269832/Ellipse_68_nz6mg6.png"
+                alt="nursery-li-img"
+              />
+              <p className="nursery-li-para">
+                Lorem ipsum dolor sit amet. Aut ipsam illum et nostrum
+              </p>
+            </li>
+          <li className="nursery-li">
+              <img
+                className="nursery-li-img"
+                src="https://res.cloudinary.com/dazwjceuy/image/upload/v1729269832/Ellipse_68_nz6mg6.png"
+                alt="nursery-li-img"
+              />
+              <p className="nursery-li-para">
+                Lorem ipsum dolor sit amet. Aut ipsam illum et nostrum
+              </p>
+            </li>
+          <li className="nursery-li">
+              <img
+                className="nursery-li-img"
+                src="https://res.cloudinary.com/dazwjceuy/image/upload/v1729269832/Ellipse_68_nz6mg6.png"
+                alt="nursery-li-img"
+              />
+              <p className="nursery-li-para">
+                Lorem ipsum dolor sit amet. Aut ipsam illum et nostrum
+              </p>
+            </li>
+          <li className="nursery-li">
+              <img
+                className="nursery-li-img"
+                src="https://res.cloudinary.com/dazwjceuy/image/upload/v1729269832/Ellipse_68_nz6mg6.png"
+                alt="nursery-li-img"
+              />
+              <p className="nursery-li-para">
+                Lorem ipsum dolor sit amet. Aut ipsam illum et nostrum
+              </p>
+            </li>
+          <li className="nursery-li">
+              <img
+                className="nursery-li-img"
+                src="https://res.cloudinary.com/dazwjceuy/image/upload/v1729269832/Ellipse_68_nz6mg6.png"
+                alt="nursery-li-img"
+              />
+              <p className="nursery-li-para">
+                Lorem ipsum dolor sit amet. Aut ipsam illum et nostrum
+              </p>
+            </li>
+          <li className="nursery-li">
+              <img
+                className="nursery-li-img"
+                src="https://res.cloudinary.com/dazwjceuy/image/upload/v1729269832/Ellipse_68_nz6mg6.png"
+                alt="nursery-li-img"
+              />
+              <p className="nursery-li-para">
+                Lorem ipsum dolor sit amet. Aut ipsam illum et nostrum
+              </p>
+            </li>
+          <li className="nursery-li">
+              <img
+                className="nursery-li-img"
+                src="https://res.cloudinary.com/dazwjceuy/image/upload/v1729269832/Ellipse_68_nz6mg6.png"
+                alt="nursery-li-img"
+              />
+              <p className="nursery-li-para">
+                Lorem ipsum dolor sit amet. Aut ipsam illum et nostrum
+              </p>
+            </li>
           </ul>
         </div>
       </div>
@@ -128,6 +218,798 @@ const PlantsAndPots = () => {
           </div>
           <ul className="products-ul">
             <li className="product-li">
+              <div className="img-cont">
+                <button className="heart-btn">
+                  <FaHeart className="heart-icon" />
+                </button>
+                <img
+                  className="main-img"
+                  src="https://res.cloudinary.com/dazwjceuy/image/upload/v1729315802/e1ce63ff429a0c018fd6e2e5dd614458_ldbyn5.png"
+                  alt="img"
+                />
+                <button className="view-btn">
+                  <Link className="view-link" to="/thankyou">
+                    View Product
+                  </Link>
+                </button>
+              </div>
+              <div className="text-cont">
+                <h1 className="text-head">Monstera</h1>
+                <p className="text-para">Indoor Planet, Low Maintenance</p>
+                <div className="rating-cont">
+                  <img
+                    className="rating-img"
+                    src="https://res.cloudinary.com/dazwjceuy/image/upload/v1729316094/image_10_ndbco7.png"
+                    alt="rating"
+                  />
+                  <p className="text-para">4.9</p>
+                </div>
+                <div className="price-cont">
+                  <p className="old-price">$359</p>
+                  <p className="new-price">$299</p>
+                </div>
+                <div className="btns-cont">
+                  <div className="popup-container">
+                    <Popup
+                      modal
+                      trigger={
+                        <div className="add-btns-cont">
+                          <button className="minus-btn">-</button>
+                          <button type="button" className="add-btn">
+                            Add To Cart
+                          </button>
+                          <button className="plus-btn">+</button>
+                        </div>
+                      }
+                    >
+                      {(close) => (
+                        <>
+                          <div className="addd-to-cart-card">
+                            <div className="atc-card">
+                              <button
+                                type="button"
+                                onClick={() => close()}
+                                className="atc-icon-btn"
+                              >
+                                <HiMiniXMark className="atc-icon" />
+                              </button>
+                              <h1 className="atc-top-head">Your Cart</h1>
+                              <hr className="atc-hr-line" />
+                              <h1 className="atc-head">
+                                Congratulations <br /> Order Placed!
+                              </h1>
+                              <img
+                                className="atc-img"
+                                src="https://res.cloudinary.com/dazwjceuy/image/upload/v1729345027/plant_1_w8ch4e.svg"
+                                alt="atc-img"
+                              />
+                              <h1 className="atc-name"> Monestra </h1>
+                              <p className="atc-para">
+                                Thank you for choosing Chaperone services. We
+                                will soon get in touch with you!
+                              </p>
+                              <button
+                                type="button"
+                                onClick={() => close()}
+                                className="atc-btn"
+                              >
+                                CONTINUE SHOPPING
+                              </button>
+                            </div>
+                          </div>
+                        </>
+                      )}
+                    </Popup>
+                  </div>
+                  <button className="rent-btn">Buy or Rent</button>
+                </div>
+              </div>
+            </li>
+         <li className="product-li">
+              <div className="img-cont">
+                <button className="heart-btn">
+                  <FaHeart className="heart-icon" />
+                </button>
+                <img
+                  className="main-img"
+                  src="https://res.cloudinary.com/dazwjceuy/image/upload/v1729315802/e1ce63ff429a0c018fd6e2e5dd614458_ldbyn5.png"
+                  alt="img"
+                />
+                <button className="view-btn">
+                  <Link className="view-link" to="/thankyou">
+                    View Product
+                  </Link>
+                </button>
+              </div>
+              <div className="text-cont">
+                <h1 className="text-head">Monstera</h1>
+                <p className="text-para">Indoor Planet, Low Maintenance</p>
+                <div className="rating-cont">
+                  <img
+                    className="rating-img"
+                    src="https://res.cloudinary.com/dazwjceuy/image/upload/v1729316094/image_10_ndbco7.png"
+                    alt="rating"
+                  />
+                  <p className="text-para">4.9</p>
+                </div>
+                <div className="price-cont">
+                  <p className="old-price">$359</p>
+                  <p className="new-price">$299</p>
+                </div>
+                <div className="btns-cont">
+                  <div className="popup-container">
+                    <Popup
+                      modal
+                      trigger={
+                        <div className="add-btns-cont">
+                          <button className="minus-btn">-</button>
+                          <button type="button" className="add-btn">
+                            Add To Cart
+                          </button>
+                          <button className="plus-btn">+</button>
+                        </div>
+                      }
+                    >
+                      {(close) => (
+                        <>
+                          <div className="addd-to-cart-card">
+                            <div className="atc-card">
+                              <button
+                                type="button"
+                                onClick={() => close()}
+                                className="atc-icon-btn"
+                              >
+                                <HiMiniXMark className="atc-icon" />
+                              </button>
+                              <h1 className="atc-top-head">Your Cart</h1>
+                              <hr className="atc-hr-line" />
+                              <h1 className="atc-head">
+                                Congratulations <br /> Order Placed!
+                              </h1>
+                              <img
+                                className="atc-img"
+                                src="https://res.cloudinary.com/dazwjceuy/image/upload/v1729345027/plant_1_w8ch4e.svg"
+                                alt="atc-img"
+                              />
+                              <h1 className="atc-name"> Monestra </h1>
+                              <p className="atc-para">
+                                Thank you for choosing Chaperone services. We
+                                will soon get in touch with you!
+                              </p>
+                              <button
+                                type="button"
+                                onClick={() => close()}
+                                className="atc-btn"
+                              >
+                                CONTINUE SHOPPING
+                              </button>
+                            </div>
+                          </div>
+                        </>
+                      )}
+                    </Popup>
+                  </div>
+                  <button className="rent-btn">Buy or Rent</button>
+                </div>
+              </div>
+            </li>
+         <li className="product-li">
+              <div className="img-cont">
+                <button className="heart-btn">
+                  <FaHeart className="heart-icon" />
+                </button>
+                <img
+                  className="main-img"
+                  src="https://res.cloudinary.com/dazwjceuy/image/upload/v1729315802/e1ce63ff429a0c018fd6e2e5dd614458_ldbyn5.png"
+                  alt="img"
+                />
+                <button className="view-btn">
+                  <Link className="view-link" to="/thankyou">
+                    View Product
+                  </Link>
+                </button>
+              </div>
+              <div className="text-cont">
+                <h1 className="text-head">Monstera</h1>
+                <p className="text-para">Indoor Planet, Low Maintenance</p>
+                <div className="rating-cont">
+                  <img
+                    className="rating-img"
+                    src="https://res.cloudinary.com/dazwjceuy/image/upload/v1729316094/image_10_ndbco7.png"
+                    alt="rating"
+                  />
+                  <p className="text-para">4.9</p>
+                </div>
+                <div className="price-cont">
+                  <p className="old-price">$359</p>
+                  <p className="new-price">$299</p>
+                </div>
+                <div className="btns-cont">
+                  <div className="popup-container">
+                    <Popup
+                      modal
+                      trigger={
+                        <div className="add-btns-cont">
+                          <button className="minus-btn">-</button>
+                          <button type="button" className="add-btn">
+                            Add To Cart
+                          </button>
+                          <button className="plus-btn">+</button>
+                        </div>
+                      }
+                    >
+                      {(close) => (
+                        <>
+                          <div className="addd-to-cart-card">
+                            <div className="atc-card">
+                              <button
+                                type="button"
+                                onClick={() => close()}
+                                className="atc-icon-btn"
+                              >
+                                <HiMiniXMark className="atc-icon" />
+                              </button>
+                              <h1 className="atc-top-head">Your Cart</h1>
+                              <hr className="atc-hr-line" />
+                              <h1 className="atc-head">
+                                Congratulations <br /> Order Placed!
+                              </h1>
+                              <img
+                                className="atc-img"
+                                src="https://res.cloudinary.com/dazwjceuy/image/upload/v1729345027/plant_1_w8ch4e.svg"
+                                alt="atc-img"
+                              />
+                              <h1 className="atc-name"> Monestra </h1>
+                              <p className="atc-para">
+                                Thank you for choosing Chaperone services. We
+                                will soon get in touch with you!
+                              </p>
+                              <button
+                                type="button"
+                                onClick={() => close()}
+                                className="atc-btn"
+                              >
+                                CONTINUE SHOPPING
+                              </button>
+                            </div>
+                          </div>
+                        </>
+                      )}
+                    </Popup>
+                  </div>
+                  <button className="rent-btn">Buy or Rent</button>
+                </div>
+              </div>
+            </li>
+         <li className="product-li">
+              <div className="img-cont">
+                <button className="heart-btn">
+                  <FaHeart className="heart-icon" />
+                </button>
+                <img
+                  className="main-img"
+                  src="https://res.cloudinary.com/dazwjceuy/image/upload/v1729315802/e1ce63ff429a0c018fd6e2e5dd614458_ldbyn5.png"
+                  alt="img"
+                />
+                <button className="view-btn">
+                  <Link className="view-link" to="/thankyou">
+                    View Product
+                  </Link>
+                </button>
+              </div>
+              <div className="text-cont">
+                <h1 className="text-head">Monstera</h1>
+                <p className="text-para">Indoor Planet, Low Maintenance</p>
+                <div className="rating-cont">
+                  <img
+                    className="rating-img"
+                    src="https://res.cloudinary.com/dazwjceuy/image/upload/v1729316094/image_10_ndbco7.png"
+                    alt="rating"
+                  />
+                  <p className="text-para">4.9</p>
+                </div>
+                <div className="price-cont">
+                  <p className="old-price">$359</p>
+                  <p className="new-price">$299</p>
+                </div>
+                <div className="btns-cont">
+                  <div className="popup-container">
+                    <Popup
+                      modal
+                      trigger={
+                        <div className="add-btns-cont">
+                          <button className="minus-btn">-</button>
+                          <button type="button" className="add-btn">
+                            Add To Cart
+                          </button>
+                          <button className="plus-btn">+</button>
+                        </div>
+                      }
+                    >
+                      {(close) => (
+                        <>
+                          <div className="addd-to-cart-card">
+                            <div className="atc-card">
+                              <button
+                                type="button"
+                                onClick={() => close()}
+                                className="atc-icon-btn"
+                              >
+                                <HiMiniXMark className="atc-icon" />
+                              </button>
+                              <h1 className="atc-top-head">Your Cart</h1>
+                              <hr className="atc-hr-line" />
+                              <h1 className="atc-head">
+                                Congratulations <br /> Order Placed!
+                              </h1>
+                              <img
+                                className="atc-img"
+                                src="https://res.cloudinary.com/dazwjceuy/image/upload/v1729345027/plant_1_w8ch4e.svg"
+                                alt="atc-img"
+                              />
+                              <h1 className="atc-name"> Monestra </h1>
+                              <p className="atc-para">
+                                Thank you for choosing Chaperone services. We
+                                will soon get in touch with you!
+                              </p>
+                              <button
+                                type="button"
+                                onClick={() => close()}
+                                className="atc-btn"
+                              >
+                                CONTINUE SHOPPING
+                              </button>
+                            </div>
+                          </div>
+                        </>
+                      )}
+                    </Popup>
+                  </div>
+                  <button className="rent-btn">Buy or Rent</button>
+                </div>
+              </div>
+            </li>
+         <li className="product-li">
+              <div className="img-cont">
+                <button className="heart-btn">
+                  <FaHeart className="heart-icon" />
+                </button>
+                <img
+                  className="main-img"
+                  src="https://res.cloudinary.com/dazwjceuy/image/upload/v1729315802/e1ce63ff429a0c018fd6e2e5dd614458_ldbyn5.png"
+                  alt="img"
+                />
+                <button className="view-btn">
+                  <Link className="view-link" to="/thankyou">
+                    View Product
+                  </Link>
+                </button>
+              </div>
+              <div className="text-cont">
+                <h1 className="text-head">Monstera</h1>
+                <p className="text-para">Indoor Planet, Low Maintenance</p>
+                <div className="rating-cont">
+                  <img
+                    className="rating-img"
+                    src="https://res.cloudinary.com/dazwjceuy/image/upload/v1729316094/image_10_ndbco7.png"
+                    alt="rating"
+                  />
+                  <p className="text-para">4.9</p>
+                </div>
+                <div className="price-cont">
+                  <p className="old-price">$359</p>
+                  <p className="new-price">$299</p>
+                </div>
+                <div className="btns-cont">
+                  <div className="popup-container">
+                    <Popup
+                      modal
+                      trigger={
+                        <div className="add-btns-cont">
+                          <button className="minus-btn">-</button>
+                          <button type="button" className="add-btn">
+                            Add To Cart
+                          </button>
+                          <button className="plus-btn">+</button>
+                        </div>
+                      }
+                    >
+                      {(close) => (
+                        <>
+                          <div className="addd-to-cart-card">
+                            <div className="atc-card">
+                              <button
+                                type="button"
+                                onClick={() => close()}
+                                className="atc-icon-btn"
+                              >
+                                <HiMiniXMark className="atc-icon" />
+                              </button>
+                              <h1 className="atc-top-head">Your Cart</h1>
+                              <hr className="atc-hr-line" />
+                              <h1 className="atc-head">
+                                Congratulations <br /> Order Placed!
+                              </h1>
+                              <img
+                                className="atc-img"
+                                src="https://res.cloudinary.com/dazwjceuy/image/upload/v1729345027/plant_1_w8ch4e.svg"
+                                alt="atc-img"
+                              />
+                              <h1 className="atc-name"> Monestra </h1>
+                              <p className="atc-para">
+                                Thank you for choosing Chaperone services. We
+                                will soon get in touch with you!
+                              </p>
+                              <button
+                                type="button"
+                                onClick={() => close()}
+                                className="atc-btn"
+                              >
+                                CONTINUE SHOPPING
+                              </button>
+                            </div>
+                          </div>
+                        </>
+                      )}
+                    </Popup>
+                  </div>
+                  <button className="rent-btn">Buy or Rent</button>
+                </div>
+              </div>
+            </li>
+         <li className="product-li">
+              <div className="img-cont">
+                <button className="heart-btn">
+                  <FaHeart className="heart-icon" />
+                </button>
+                <img
+                  className="main-img"
+                  src="https://res.cloudinary.com/dazwjceuy/image/upload/v1729315802/e1ce63ff429a0c018fd6e2e5dd614458_ldbyn5.png"
+                  alt="img"
+                />
+                <button className="view-btn">
+                  <Link className="view-link" to="/thankyou">
+                    View Product
+                  </Link>
+                </button>
+              </div>
+              <div className="text-cont">
+                <h1 className="text-head">Monstera</h1>
+                <p className="text-para">Indoor Planet, Low Maintenance</p>
+                <div className="rating-cont">
+                  <img
+                    className="rating-img"
+                    src="https://res.cloudinary.com/dazwjceuy/image/upload/v1729316094/image_10_ndbco7.png"
+                    alt="rating"
+                  />
+                  <p className="text-para">4.9</p>
+                </div>
+                <div className="price-cont">
+                  <p className="old-price">$359</p>
+                  <p className="new-price">$299</p>
+                </div>
+                <div className="btns-cont">
+                  <div className="popup-container">
+                    <Popup
+                      modal
+                      trigger={
+                        <div className="add-btns-cont">
+                          <button className="minus-btn">-</button>
+                          <button type="button" className="add-btn">
+                            Add To Cart
+                          </button>
+                          <button className="plus-btn">+</button>
+                        </div>
+                      }
+                    >
+                      {(close) => (
+                        <>
+                          <div className="addd-to-cart-card">
+                            <div className="atc-card">
+                              <button
+                                type="button"
+                                onClick={() => close()}
+                                className="atc-icon-btn"
+                              >
+                                <HiMiniXMark className="atc-icon" />
+                              </button>
+                              <h1 className="atc-top-head">Your Cart</h1>
+                              <hr className="atc-hr-line" />
+                              <h1 className="atc-head">
+                                Congratulations <br /> Order Placed!
+                              </h1>
+                              <img
+                                className="atc-img"
+                                src="https://res.cloudinary.com/dazwjceuy/image/upload/v1729345027/plant_1_w8ch4e.svg"
+                                alt="atc-img"
+                              />
+                              <h1 className="atc-name"> Monestra </h1>
+                              <p className="atc-para">
+                                Thank you for choosing Chaperone services. We
+                                will soon get in touch with you!
+                              </p>
+                              <button
+                                type="button"
+                                onClick={() => close()}
+                                className="atc-btn"
+                              >
+                                CONTINUE SHOPPING
+                              </button>
+                            </div>
+                          </div>
+                        </>
+                      )}
+                    </Popup>
+                  </div>
+                  <button className="rent-btn">Buy or Rent</button>
+                </div>
+              </div>
+            </li>
+         <li className="product-li">
+              <div className="img-cont">
+                <button className="heart-btn">
+                  <FaHeart className="heart-icon" />
+                </button>
+                <img
+                  className="main-img"
+                  src="https://res.cloudinary.com/dazwjceuy/image/upload/v1729315802/e1ce63ff429a0c018fd6e2e5dd614458_ldbyn5.png"
+                  alt="img"
+                />
+                <button className="view-btn">
+                  <Link className="view-link" to="/thankyou">
+                    View Product
+                  </Link>
+                </button>
+              </div>
+              <div className="text-cont">
+                <h1 className="text-head">Monstera</h1>
+                <p className="text-para">Indoor Planet, Low Maintenance</p>
+                <div className="rating-cont">
+                  <img
+                    className="rating-img"
+                    src="https://res.cloudinary.com/dazwjceuy/image/upload/v1729316094/image_10_ndbco7.png"
+                    alt="rating"
+                  />
+                  <p className="text-para">4.9</p>
+                </div>
+                <div className="price-cont">
+                  <p className="old-price">$359</p>
+                  <p className="new-price">$299</p>
+                </div>
+                <div className="btns-cont">
+                  <div className="popup-container">
+                    <Popup
+                      modal
+                      trigger={
+                        <div className="add-btns-cont">
+                          <button className="minus-btn">-</button>
+                          <button type="button" className="add-btn">
+                            Add To Cart
+                          </button>
+                          <button className="plus-btn">+</button>
+                        </div>
+                      }
+                    >
+                      {(close) => (
+                        <>
+                          <div className="addd-to-cart-card">
+                            <div className="atc-card">
+                              <button
+                                type="button"
+                                onClick={() => close()}
+                                className="atc-icon-btn"
+                              >
+                                <HiMiniXMark className="atc-icon" />
+                              </button>
+                              <h1 className="atc-top-head">Your Cart</h1>
+                              <hr className="atc-hr-line" />
+                              <h1 className="atc-head">
+                                Congratulations <br /> Order Placed!
+                              </h1>
+                              <img
+                                className="atc-img"
+                                src="https://res.cloudinary.com/dazwjceuy/image/upload/v1729345027/plant_1_w8ch4e.svg"
+                                alt="atc-img"
+                              />
+                              <h1 className="atc-name"> Monestra </h1>
+                              <p className="atc-para">
+                                Thank you for choosing Chaperone services. We
+                                will soon get in touch with you!
+                              </p>
+                              <button
+                                type="button"
+                                onClick={() => close()}
+                                className="atc-btn"
+                              >
+                                CONTINUE SHOPPING
+                              </button>
+                            </div>
+                          </div>
+                        </>
+                      )}
+                    </Popup>
+                  </div>
+                  <button className="rent-btn">Buy or Rent</button>
+                </div>
+              </div>
+            </li>
+         <li className="product-li">
+              <div className="img-cont">
+                <button className="heart-btn">
+                  <FaHeart className="heart-icon" />
+                </button>
+                <img
+                  className="main-img"
+                  src="https://res.cloudinary.com/dazwjceuy/image/upload/v1729315802/e1ce63ff429a0c018fd6e2e5dd614458_ldbyn5.png"
+                  alt="img"
+                />
+                <button className="view-btn">
+                  <Link className="view-link" to="/thankyou">
+                    View Product
+                  </Link>
+                </button>
+              </div>
+              <div className="text-cont">
+                <h1 className="text-head">Monstera</h1>
+                <p className="text-para">Indoor Planet, Low Maintenance</p>
+                <div className="rating-cont">
+                  <img
+                    className="rating-img"
+                    src="https://res.cloudinary.com/dazwjceuy/image/upload/v1729316094/image_10_ndbco7.png"
+                    alt="rating"
+                  />
+                  <p className="text-para">4.9</p>
+                </div>
+                <div className="price-cont">
+                  <p className="old-price">$359</p>
+                  <p className="new-price">$299</p>
+                </div>
+                <div className="btns-cont">
+                  <div className="popup-container">
+                    <Popup
+                      modal
+                      trigger={
+                        <div className="add-btns-cont">
+                          <button className="minus-btn">-</button>
+                          <button type="button" className="add-btn">
+                            Add To Cart
+                          </button>
+                          <button className="plus-btn">+</button>
+                        </div>
+                      }
+                    >
+                      {(close) => (
+                        <>
+                          <div className="addd-to-cart-card">
+                            <div className="atc-card">
+                              <button
+                                type="button"
+                                onClick={() => close()}
+                                className="atc-icon-btn"
+                              >
+                                <HiMiniXMark className="atc-icon" />
+                              </button>
+                              <h1 className="atc-top-head">Your Cart</h1>
+                              <hr className="atc-hr-line" />
+                              <h1 className="atc-head">
+                                Congratulations <br /> Order Placed!
+                              </h1>
+                              <img
+                                className="atc-img"
+                                src="https://res.cloudinary.com/dazwjceuy/image/upload/v1729345027/plant_1_w8ch4e.svg"
+                                alt="atc-img"
+                              />
+                              <h1 className="atc-name"> Monestra </h1>
+                              <p className="atc-para">
+                                Thank you for choosing Chaperone services. We
+                                will soon get in touch with you!
+                              </p>
+                              <button
+                                type="button"
+                                onClick={() => close()}
+                                className="atc-btn"
+                              >
+                                CONTINUE SHOPPING
+                              </button>
+                            </div>
+                          </div>
+                        </>
+                      )}
+                    </Popup>
+                  </div>
+                  <button className="rent-btn">Buy or Rent</button>
+                </div>
+              </div>
+            </li>
+         <li className="product-li">
+              <div className="img-cont">
+                <button className="heart-btn">
+                  <FaHeart className="heart-icon" />
+                </button>
+                <img
+                  className="main-img"
+                  src="https://res.cloudinary.com/dazwjceuy/image/upload/v1729315802/e1ce63ff429a0c018fd6e2e5dd614458_ldbyn5.png"
+                  alt="img"
+                />
+                <button className="view-btn">
+                  <Link className="view-link" to="/thankyou">
+                    View Product
+                  </Link>
+                </button>
+              </div>
+              <div className="text-cont">
+                <h1 className="text-head">Monstera</h1>
+                <p className="text-para">Indoor Planet, Low Maintenance</p>
+                <div className="rating-cont">
+                  <img
+                    className="rating-img"
+                    src="https://res.cloudinary.com/dazwjceuy/image/upload/v1729316094/image_10_ndbco7.png"
+                    alt="rating"
+                  />
+                  <p className="text-para">4.9</p>
+                </div>
+                <div className="price-cont">
+                  <p className="old-price">$359</p>
+                  <p className="new-price">$299</p>
+                </div>
+                <div className="btns-cont">
+                  <div className="popup-container">
+                    <Popup
+                      modal
+                      trigger={
+                        <div className="add-btns-cont">
+                          <button className="minus-btn">-</button>
+                          <button type="button" className="add-btn">
+                            Add To Cart
+                          </button>
+                          <button className="plus-btn">+</button>
+                        </div>
+                      }
+                    >
+                      {(close) => (
+                        <>
+                          <div className="addd-to-cart-card">
+                            <div className="atc-card">
+                              <button
+                                type="button"
+                                onClick={() => close()}
+                                className="atc-icon-btn"
+                              >
+                                <HiMiniXMark className="atc-icon" />
+                              </button>
+                              <h1 className="atc-top-head">Your Cart</h1>
+                              <hr className="atc-hr-line" />
+                              <h1 className="atc-head">
+                                Congratulations <br /> Order Placed!
+                              </h1>
+                              <img
+                                className="atc-img"
+                                src="https://res.cloudinary.com/dazwjceuy/image/upload/v1729345027/plant_1_w8ch4e.svg"
+                                alt="atc-img"
+                              />
+                              <h1 className="atc-name"> Monestra </h1>
+                              <p className="atc-para">
+                                Thank you for choosing Chaperone services. We
+                                will soon get in touch with you!
+                              </p>
+                              <button
+                                type="button"
+                                onClick={() => close()}
+                                className="atc-btn"
+                              >
+                                CONTINUE SHOPPING
+                              </button>
+                            </div>
+                          </div>
+                        </>
+                      )}
+                    </Popup>
+                  </div>
+                  <button className="rent-btn">Buy or Rent</button>
+                </div>
+              </div>
+            </li>
+         <li className="product-li">
               <div className="img-cont">
                 <button className="heart-btn">
                   <FaHeart className="heart-icon" />
