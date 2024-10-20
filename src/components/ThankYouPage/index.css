@@ -6,8 +6,16 @@
   background-size: cover;
   height: 90vh;
   margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
-
+.view-link {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
 .atc-card {
   display: flex;
   flex-direction: column;

@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { Popup } from "reactjs-popup";
 import { RiArrowDropDownLine } from "react-icons/ri";
 import { FaHeart } from "react-icons/fa";
 import { HiMiniXMark } from "react-icons/hi2";
@@ -136,7 +137,11 @@ const PlantsAndPots = () => {
                   src="https://res.cloudinary.com/dazwjceuy/image/upload/v1729315802/e1ce63ff429a0c018fd6e2e5dd614458_ldbyn5.png"
                   alt="img"
                 />
-                <button className="view-btn">View Product</button>
+                <button className="view-btn">
+                  <Link className="view-link" to="/thankyou">
+                    View Product
+                  </Link>
+                </button>
               </div>
               <div className="text-cont">
                 <h1 className="text-head">Monstera</h1>
@@ -154,10 +159,57 @@ const PlantsAndPots = () => {
                   <p className="new-price">$299</p>
                 </div>
                 <div className="btns-cont">
-                  <div className="add-btns-cont">
-                    <button className="minus-btn">-</button>
-                    <button className="add-btn">Add To Cart</button>
-                    <button className="plus-btn">+</button>
+                  <div className="popup-container">
+                    <Popup
+                      modal
+                      trigger={
+                        <div className="add-btns-cont">
+                          <button className="minus-btn">-</button>
+                          <button type="button" className="add-btn">
+                            Add To Cart
+                          </button>
+                          <button className="plus-btn">+</button>
+                        </div>
+                      }
+                    >
+                      {(close) => (
+                        <>
+                          <div className="addd-to-cart-card">
+                            <div className="atc-card">
+                              <button
+                                type="button"
+                                onClick={() => close()}
+                                className="atc-icon-btn"
+                              >
+                                <HiMiniXMark className="atc-icon" />
+                              </button>
+                              <h1 className="atc-top-head">Your Cart</h1>
+                              <hr className="atc-hr-line" />
+                              <h1 className="atc-head">
+                                Congratulations <br /> Order Placed!
+                              </h1>
+                              <img
+                                className="atc-img"
+                                src="https://res.cloudinary.com/dazwjceuy/image/upload/v1729345027/plant_1_w8ch4e.svg"
+                                alt="atc-img"
+                              />
+                              <h1 className="atc-name"> Product Name </h1>
+                              <p className="atc-para">
+                                Thank you for choosing Chaperone services. We
+                                will soon get in touch with you!
+                              </p>
+                              <button
+                                type="button"
+                                onClick={() => close()}
+                                className="atc-btn"
+                              >
+                                CONTINUE SHOPPING
+                              </button>
+                            </div>
+                          </div>
+                        </>
+                      )}
+                    </Popup>
                   </div>
                   <button className="rent-btn">Buy or Rent</button>
                 </div>
@@ -172,29 +224,3 @@ const PlantsAndPots = () => {
   );
 };
 export default PlantsAndPots;
-
-const Popup = () => (
-  <div className="add-to-cart-card">
-    <div className="atc-card">
-      <button className="atc-icon-btn">
-        <HiMiniXMark className="atc-icon" />
-      </button>
-      <h1 className="atc-top-head">Your Cart</h1>
-      <hr className="atc-hr-line" />
-      <h1 className="atc-head">
-        Congratulations <br /> Order Placed!
-      </h1>
-      <img
-        className="atc-img"
-        src="https://res.cloudinary.com/dazwjceuy/image/upload/v1729345027/plant_1_w8ch4e.svg"
-        alt="atc-img"
-      />
-      <h1 className="atc-name"> [Product Name] </h1>
-      <p className="atc-para">
-        Thank you for choosing Chaperone services. We will soon get in touch
-        with you!
-      </p>
-      <button className="atc-btn">CONTINUE SHOPPING</button>
-    </div>
-  </div>
-);

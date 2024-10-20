@@ -238,7 +238,11 @@
   margin: 0px;
   align-self: center;
 }
-
+.view-link {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
 .view-btn {
   background-color: #165315;
   color: white;
@@ -458,8 +462,9 @@
 
 /* Add To Cart */
 
-.add-to-cart-card {
-  padding: 15px;
+.addd-to-cart-card {
+  border: 1px solid black;
+  padding: 20px;
   background-image: radial-gradient(#ffffff, #f0ffe5);
   background-size: cover;
   height: 90vh;
@@ -489,7 +494,7 @@
 .atc-top-head {
   color: #0f4811;
   font-weight: 100;
-  font-size: 15px;
+  font-size: 25px;
   text-align: center;
   margin: 0px;
   margin-bottom: 15px;
