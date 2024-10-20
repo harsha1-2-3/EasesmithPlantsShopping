@@ -1,0 +1,92 @@
+/* Add To Cart */
+
+.add-to-cart-card {
+  padding: 15px;
+  background-image: radial-gradient(#ffffff, #f0ffe5);
+  background-size: cover;
+  height: 90vh;
+  margin: 10px;
+}
+
+.atc-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.atc-icon-btn {
+  cursor: pointer;
+  outline: none;
+  background-color: transparent;
+  border: 0px;
+  align-self: flex-end;
+}
+
+.atc-icon {
+  align-self: flex-end;
+  font-size: 20px;
+  margin: 0px;
+}
+
+.atc-top-head {
+  color: #0f4811;
+  font-weight: 100;
+  font-size: 15px;
+  text-align: center;
+  margin: 0px;
+  margin-bottom: 15px;
+}
+
+.atc-hr-line {
+  border: 0.2px solid #0f4811;
+  width: 100%;
+  margin: 0px;
+  margin-bottom: 15px;
+}
+
+.atc-head {
+  color: #165315;
+  font-weight: bold;
+  font-size: 25px;
+  margin: 0px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.atc-img {
+  height: 70px;
+  width: 70px;
+  margin: 0px;
+  margin-bottom: 20px;
+}
+
+.atc-name {
+  color: #165315;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 0px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.atc-para {
+  color: #0f4811;
+  font-size: 15px;
+  margin: 0px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.atc-btn {
+  background-color: #165315;
+  color: white;
+  border: 0px;
+  height: 40px;
+  width: 250px;
+  cursor: pointer;
+  outline: none;
+  font-weight: 500;
+  font-size: 17px;
+  border-radius: 3px;
+}
