@@ -193,7 +193,7 @@ const PlantsAndPots = () => {
                                 src="https://res.cloudinary.com/dazwjceuy/image/upload/v1729345027/plant_1_w8ch4e.svg"
                                 alt="atc-img"
                               />
-                              <h1 className="atc-name"> Product Name </h1>
+                              <h1 className="atc-name"> Monestra </h1>
                               <p className="atc-para">
                                 Thank you for choosing Chaperone services. We
                                 will soon get in touch with you!

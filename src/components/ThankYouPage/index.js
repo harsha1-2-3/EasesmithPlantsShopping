@@ -13,10 +13,10 @@ const ThankYouPage = () => {
           <h1 className="atc-head">Thanks for you interest in </h1>
           <img
             className="atc-img"
-            src="https://res.cloudinary.com/dazwjceuy/image/upload/v1729345027/plant_1_w8ch4e.svg"
+            src="https://res.cloudinary.com/dazwjceuy/image/upload/v1729315802/e1ce63ff429a0c018fd6e2e5dd614458_ldbyn5.png"
             alt="atc-img"
           />
-          <h1 className="atc-name"> Product Name </h1>
+          <h1 className="atc-name"> Monestra </h1>
           <button className="atc-btn">
             <Link className="view-link" to="/">
               CONTINUE SHOPPING
